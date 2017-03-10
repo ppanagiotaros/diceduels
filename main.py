@@ -6,8 +6,8 @@ p2 = 0
 
 while p1 != 3 and p2 != 3:
 	
-	dice1 = randrange(1,6)
-	dice2 = randrange(1,6)
+	dice1 = randrange(1,7)
+	dice2 = randrange(1,7)
 
 	userinput = raw_input("Lets Play Dice! Grab a partner and type 'go' to start...")
 	if userinput == "go":
